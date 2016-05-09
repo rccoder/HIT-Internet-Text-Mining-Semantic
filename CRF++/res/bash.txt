@@ -1,0 +1,1 @@
+ rm model & rm output.txt & crf_learn.exe template3 train.file2.txt model & crf_test.exe -m model test.file.txt >> output.txt & python conlleval.py
